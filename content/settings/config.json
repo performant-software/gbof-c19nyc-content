@@ -41,7 +41,7 @@
       "title": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.0.name",
       "subtitle": "name"
     },
-    "timeline": true
+    "timeline": false
   },
   "typesense": {
     "host": "mk0zu5rvf46oa2h7p-1.a1.typesense.net",
