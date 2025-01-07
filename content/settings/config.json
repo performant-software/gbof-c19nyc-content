@@ -28,6 +28,12 @@
       "overlay": true
     },
     {
+      "name": "Sanitary & Topographical Map of the City and Island of New York.",
+      "layer_type": "georeference",
+      "url": "https://iiif.oldmapsonline.org/export/0e8c8558-86db-488b-bf47-71f5db95181f/index.json",
+      "overlay": true
+    },
+    {
       "name": "US States",
       "layer_type": "geojson",
       "url": "gz_2010_us_040_00_20m.json",
