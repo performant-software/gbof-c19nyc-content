@@ -30,7 +30,7 @@
     {
       "name": "Sanitary & Topographical Map of the City and Island of New York.",
       "layer_type": "georeference",
-      "url": "https://iiif.oldmapsonline.org/export/0e8c8558-86db-488b-bf47-71f5db95181f/index.json",
+      "url": "https://iiif.oldmapsonline.org/export/0e8c8558-86db-488b-bf47-71f5db95181f/annotations.json",
       "overlay": true
     },
     {
