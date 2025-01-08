@@ -55,7 +55,16 @@
     "protocol": "https",
     "api_key": "gBi7NUb3ocpnf5Aw4HpDIURGxALgLpjR",
     "index_name": "c19nyc",
-    "query_by": "name"
+    "query_by": "name",
+    "facets": {
+      "exclude": [
+        "all_projects_facet",
+        "all_projects_facet.name",
+        "owner_project_facet",
+        "owner_project_facet.id",
+        "owner_project_facet.name"
+      ]
+    }
   },
   "core_data": {
     "url": "https://app.coredata.cloud",
