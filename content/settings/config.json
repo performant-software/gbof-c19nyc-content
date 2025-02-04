@@ -1,5 +1,5 @@
 {
-  "content": ["paths", "posts"],
+  "content": ["posts", "paths"],
   "i18n": {
     "default_locale": "en",
     "locales": ["en"]
