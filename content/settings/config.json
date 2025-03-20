@@ -41,20 +41,35 @@
       "overlay": true
     }
   ],
+  "map": {
+    "max_zoom": 8,
+    "zoom_to_place": false,
+    "geometry": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.geometry"
+  },
   "search": {
-    "cluster_radius": 6,
     "result_card": {
-      "title": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.0.name",
-      "subtitle": "name"
+      "attributes": [
+        {
+          "name": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.0.name",
+          "icon": "location"
+        }
+      ],
+      "title": "name"
     },
-    "timeline": false
+    "timeline": false,
+    "result_filtering": {
+      "organizations": {
+        "exclude": ["da725d0a-df8d-44c6-92ee-c16c2acb342a"]
+      }
+    },
+    "route": "/organizations"
   },
   "typesense": {
     "host": "mk0zu5rvf46oa2h7p-1.a1.typesense.net",
     "port": 443,
     "protocol": "https",
-    "api_key": "gBi7NUb3ocpnf5Aw4HpDIURGxALgLpjR",
-    "index_name": "c19nyc",
+    "api_key": "4woeeKPlrBLj75nIMA8nRsZWoSzguDPQ",
+    "index_name": "c19nyc_orgs",
     "query_by": "name",
     "facets": {
       "exclude": [
@@ -69,5 +84,10 @@
   "core_data": {
     "url": "https://app.coredata.cloud",
     "project_ids": [2]
+  },
+  "branding": {
+    "header_hide_title": false,
+    "footer_hide_title": false,
+    "footer_login": true
   }
 }
