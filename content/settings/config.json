@@ -79,7 +79,9 @@
         "owner_project_facet.id",
         "owner_project_facet.name",
         "all_projects.name_facet",
-        "owner_project.name_facet"
+        "owner_project.name_facet",
+        "19a59d8b-ddcd-445b-a294-489d53be65db.name_facet",
+        "names_facet"
       ]
     }
   },
