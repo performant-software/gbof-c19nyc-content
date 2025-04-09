@@ -46,24 +46,31 @@
     "zoom_to_place": false,
     "geometry": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.geometry"
   },
-  "search": {
-    "result_card": {
-      "attributes": [
-        {
-          "name": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.0.name",
-          "icon": "location"
+  "search": [
+      {
+      "name": "organizations",
+      "route": "/organizations",
+      "result_card": {
+        "attributes": [
+          {
+            "name": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.0.name",
+            "icon": "location"
+          }
+        ],
+        "title": "name"
+      },
+      "timeline": {
+        "date_range_facet": "event_range_facet",
+        "event_path": "40de3d57-c3d0-4152-ab61-f970c0ada2a0"
+      },
+      "table": false,
+      "result_filtering": {
+        "organizations": {
+          "exclude": ["da725d0a-df8d-44c6-92ee-c16c2acb342a"]
         }
-      ],
-      "title": "name"
-    },
-    "timeline": false,
-    "result_filtering": {
-      "organizations": {
-        "exclude": ["da725d0a-df8d-44c6-92ee-c16c2acb342a"]
       }
-    },
-    "route": "/organizations"
-  },
+    }
+  ],
   "typesense": {
     "host": "mk0zu5rvf46oa2h7p-1.a1.typesense.net",
     "port": 443,
