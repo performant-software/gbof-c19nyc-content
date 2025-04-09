@@ -34,5 +34,7 @@
   "t_b9553439125840d49349d0d0a8fc888a": "Event Locations",
   "t_f469c608d0214d12bcdd07af72550acf": "Cover Image",
   "t_0717e933eff141a4881f3726e8cfc9f2": "Images related to this place",
-  "t_08a4e1d3ee474478b814aa190322e3cd": "Organization Type"
+  "t_08a4e1d3ee474478b814aa190322e3cd": "Organization Type",
+  "t_index_organizations": "Organizations",
+  "t_index_places": "Places"
 }
