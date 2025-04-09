@@ -1,8 +1,13 @@
 {
-  "content": ["posts", "paths"],
+  "content": [
+    "posts",
+    "paths"
+  ],
   "i18n": {
     "default_locale": "en",
-    "locales": ["en"]
+    "locales": [
+      "en"
+    ]
   },
   "layers": [
     {
@@ -42,7 +47,7 @@
     }
   ],
   "search": [
-      {
+    {
       "name": "organizations",
       "route": "/organizations",
       "map": {
@@ -59,14 +64,12 @@
         ],
         "title": "name"
       },
-      "timeline": {
-        "date_range_facet": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.event_range_facet",
-        "event_path": "40de3d57-c3d0-4152-ab61-f970c0ada2a0"
-      },
       "table": false,
       "result_filtering": {
         "organizations": {
-          "exclude": ["da725d0a-df8d-44c6-92ee-c16c2acb342a"]
+          "exclude": [
+            "da725d0a-df8d-44c6-92ee-c16c2acb342a"
+          ]
         }
       },
       "typesense": {
@@ -90,11 +93,64 @@
           ]
         }
       }
+    },
+    {
+      "name": "places",
+      "route": "/places",
+      "map": {
+        "max_zoom": 8,
+        "zoom_to_place": false,
+        "geometry": "geometry"
+      },
+      "result_card": {
+        "attributes": [
+          {
+            "name": "name",
+            "icon": "location"
+          }
+        ],
+        "title": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.0.name"
+      },
+      "timeline": {
+        "date_range_facet": "event_range_facet",
+        "event_path": "b9553439-1258-40d4-9349-d0d0a8fc888a"
+      },
+      "table": false,
+      "result_filtering": {
+        "organizations": {
+          "exclude": [
+            "da725d0a-df8d-44c6-92ee-c16c2acb342a"
+          ]
+        }
+      },
+      "typesense": {
+        "api_key": "ALvHD63rfiyJO8xUpRYGvapWnDqJzAlS",
+        "host": "mk0zu5rvf46oa2h7p-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "index_name": "c19nyc_places",
+        "query_by": "name",
+        "facets": {
+          "exclude": [
+            "all_projects_facet",
+            "all_projects_facet.name",
+            "owner_project_facet",
+            "owner_project_facet.id",
+            "owner_project_facet.name",
+            "all_projects.name_facet",
+            "owner_project.name_facet",
+            "40de3d57-c3d0-4152-ab61-f970c0ada2a0.name_facet",
+            "names_facet"
+          ]
+        }
+      }
     }
   ],
   "core_data": {
     "url": "https://app.coredata.cloud",
-    "project_ids": [2]
+    "project_ids": [
+      2
+    ]
   },
   "branding": {
     "header_hide_title": false,
