@@ -60,7 +60,7 @@
         "title": "name"
       },
       "timeline": {
-        "date_range_facet": "event_range_facet",
+        "date_range_facet": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.event_range_facet",
         "event_path": "40de3d57-c3d0-4152-ab61-f970c0ada2a0"
       },
       "table": false,
