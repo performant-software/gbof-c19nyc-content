@@ -68,30 +68,30 @@
         "organizations": {
           "exclude": ["da725d0a-df8d-44c6-92ee-c16c2acb342a"]
         }
+      },
+      "typesense": {
+        "host": "mk0zu5rvf46oa2h7p-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "4woeeKPlrBLj75nIMA8nRsZWoSzguDPQ",
+        "index_name": "c19nyc_orgs",
+        "query_by": "name",
+        "facets": {
+          "exclude": [
+            "all_projects_facet",
+            "all_projects_facet.name",
+            "owner_project_facet",
+            "owner_project_facet.id",
+            "owner_project_facet.name",
+            "all_projects.name_facet",
+            "owner_project.name_facet",
+            "19a59d8b-ddcd-445b-a294-489d53be65db.name_facet",
+            "names_facet"
+          ]
+        }
       }
     }
   ],
-  "typesense": {
-    "host": "mk0zu5rvf46oa2h7p-1.a1.typesense.net",
-    "port": 443,
-    "protocol": "https",
-    "api_key": "4woeeKPlrBLj75nIMA8nRsZWoSzguDPQ",
-    "index_name": "c19nyc_orgs",
-    "query_by": "name",
-    "facets": {
-      "exclude": [
-        "all_projects_facet",
-        "all_projects_facet.name",
-        "owner_project_facet",
-        "owner_project_facet.id",
-        "owner_project_facet.name",
-        "all_projects.name_facet",
-        "owner_project.name_facet",
-        "19a59d8b-ddcd-445b-a294-489d53be65db.name_facet",
-        "names_facet"
-      ]
-    }
-  },
   "core_data": {
     "url": "https://app.coredata.cloud",
     "project_ids": [2]
