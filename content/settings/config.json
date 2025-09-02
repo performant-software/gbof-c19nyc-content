@@ -1,8 +1,16 @@
 {
-  "content": [
-    "posts",
-    "paths"
+  "detail_pages": [
+    "people",
+    "places",
+    "events",
+    "organizations"
   ],
+  "content": {
+    "collections": [
+      "posts",
+      "paths"
+    ]
+  },
   "i18n": {
     "default_locale": "en",
     "locales": [
