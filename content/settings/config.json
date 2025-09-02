@@ -59,7 +59,7 @@
       "name": "organizations",
       "route": "/organizations",
       "map": {
-        "max_zoom": 8,
+        "max_zoom": 14,
         "zoom_to_place": true,
         "geometry": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.geometry"
       },
@@ -105,7 +105,7 @@
       "name": "places",
       "route": "/places",
       "map": {
-        "max_zoom": 8,
+        "max_zoom": 14,
         "zoom_to_place": true,
         "geometry": "geometry"
       },
