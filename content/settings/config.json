@@ -72,6 +72,10 @@
         ],
         "title": "name"
       },
+      "timeline": {
+        "date_range_facet": "event_range_facet",
+        "event_path": "40de3d57-c3d0-4152-ab61-f970c0ada2a0"
+      },
       "result_filtering": {
         "organizations": {
           "exclude": [
