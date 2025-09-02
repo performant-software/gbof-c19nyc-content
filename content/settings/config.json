@@ -64,7 +64,6 @@
         ],
         "title": "name"
       },
-      "table": false,
       "result_filtering": {
         "organizations": {
           "exclude": [
@@ -115,7 +114,6 @@
         "date_range_facet": "event_range_facet",
         "event_path": "b9553439-1258-40d4-9349-d0d0a8fc888a"
       },
-      "table": false,
       "result_filtering": {
         "organizations": {
           "exclude": [
