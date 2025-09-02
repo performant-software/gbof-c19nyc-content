@@ -60,7 +60,7 @@
       "route": "/organizations",
       "map": {
         "max_zoom": 8,
-        "zoom_to_place": false,
+        "zoom_to_place": true,
         "geometry": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.geometry"
       },
       "result_card": {
@@ -106,7 +106,7 @@
       "route": "/places",
       "map": {
         "max_zoom": 8,
-        "zoom_to_place": false,
+        "zoom_to_place": true,
         "geometry": "geometry"
       },
       "result_card": {
