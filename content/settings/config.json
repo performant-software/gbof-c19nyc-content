@@ -25,6 +25,13 @@
   },
   "layers": [
     {
+      "name": "Original Water Courses and Made Land",
+      "layer_type": "georeference",
+      "url": "https://raw.githubusercontent.com/performant-software/gbof-map-library/refs/heads/main/layers/topographical-map-of-the-city-of-new-york-showing-original-water-courses-and-made-land.json",
+      "overlay": true,
+      "default": false
+    },
+    {
       "name": "Werpoes",
       "layer_type": "georeference",
       "url": "https://raw.githubusercontent.com/performant-software/gbof-map-library/refs/heads/main/layers/werpoes-georeferenced-annotation.json",
