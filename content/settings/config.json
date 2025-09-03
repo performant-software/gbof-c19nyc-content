@@ -25,6 +25,7 @@
   },
   "layers": [
     {
+      "name": "Werpoes",
       "layer_type": "georeference",
       "url": "https://raw.githubusercontent.com/performant-software/gbof-map-library/refs/heads/main/layers/werpoes-georeferenced-annotation.json",
       "overlay": true,
