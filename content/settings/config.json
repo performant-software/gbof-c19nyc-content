@@ -11,6 +11,12 @@
       "paths"
     ]
   },
+  "core_data": {
+    "url": "https://app.coredata.cloud",
+    "project_ids": [
+      "2"
+    ]
+  },
   "i18n": {
     "default_locale": "en",
     "locales": [
@@ -18,6 +24,12 @@
     ]
   },
   "layers": [
+    {
+      "layer_type": "georeference",
+      "url": "https://raw.githubusercontent.com/performant-software/gbof-map-library/refs/heads/main/layers/werpoes-georeferenced-annotation.json",
+      "overlay": true,
+      "default": false
+    },
     {
       "name": "Maptiler DataViz Style",
       "layer_type": "vector",
@@ -31,7 +43,6 @@
     {
       "name": "USGS Topo (MapServer)",
       "layer_type": "raster",
-      "foo": "https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer?bbox=%7Bbbox-epsg-3857%7D&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=0&styles=default",
       "url": "https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=0&styles=default"
     },
     {
@@ -50,7 +61,6 @@
       "name": "US States",
       "layer_type": "geojson",
       "url": "gz_2010_us_040_00_20m.json",
-      "description": "Data from the United States Census Bureau. https://eric.clst.org/tech/usgeojson/",
       "overlay": true
     }
   ],
@@ -59,31 +69,22 @@
       "name": "organizations",
       "route": "/organizations",
       "map": {
+        "geometry": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.geometry",
         "max_zoom": 14,
-        "zoom_to_place": true,
-        "geometry": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.geometry"
+        "zoom_to_place": true
       },
       "result_card": {
+        "title": "name",
         "attributes": [
           {
             "name": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.0.name",
             "icon": "location"
           }
-        ],
-        "title": "name"
+        ]
       },
       "timeline": {
         "date_range_facet": "event_range_facet",
         "event_path": "c0cbb3f8-39af-4402-96d7-23851a3f3949"
-      },
-      "result_filtering": {
-        "organizations": {
-          "exclude": [
-            "da725d0a-df8d-44c6-92ee-c16c2acb342a",
-            "03480d1c-8b41-44ff-ba92-a2728f19a541",
-            "c718ea37-7eb1-4866-a484-d7fcb466ffbe"
-          ]
-        }
       },
       "typesense": {
         "host": "mk0zu5rvf46oa2h7p-1.a1.typesense.net",
@@ -107,11 +108,5 @@
         }
       }
     }
-  ],
-  "core_data": {
-    "url": "https://app.coredata.cloud",
-    "project_ids": [
-      "2"
-    ]
-  }
+  ]
 }
