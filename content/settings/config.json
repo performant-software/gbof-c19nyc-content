@@ -76,6 +76,7 @@
     {
       "name": "organizations",
       "route": "/organizations",
+      "geosearch": true,
       "map": {
         "geometry": "40de3d57-c3d0-4152-ab61-f970c0ada2a0.geometry",
         "max_zoom": 14,
